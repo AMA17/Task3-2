@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
         int calculation;
-        int weightInKg = 98; // вес
-        double heightInMeter = 1.87; // рост
-        int bmi = service.calculate(calculation);
+        int weightInKg = 80; // вес
+        double heightInMeter = 1.78; // рост
+        int bmi = service.calculate(weightInKg,heightInMeter);
         System.out.println(bmi);
     }
 }
